@@ -1,0 +1,48 @@
+<!DOCTYPE html><html><head><meta charset="utf-8" /><title>FitMi 雲端減重</title><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta content="chrome=1" http-equiv="X-UA-Compatible" /><!--metadata--><meta content="zh-tw" http-equiv="content-language" /><meta content="減肥,減重,體重,瘦身,記錄,熱量,卡路里,窈窕,飲食,健身,運動,節食,控制,身材,小腹,日記,healthy,weight,thin,fat,diet,diary,BMI" name="keywords" /><meta content="你是否嘗試過各種減重的方法? 始終找不到一個好的方法呢?  FitMi減重服務採用自然的飲食調整，及正確的心理建設，在減重過程提供專業建議與關懷陪伴，輔以網路科技。讓你以你做得到的前提，而且能持續做的方式，輕鬆健康瘦下來，建立正確的觀念讓你在結束後不再復胖。" name="description" /><meta content="NOODP" name="robots" /><meta content="fitmi.com.tw" name="copyright" /><!--Bootstrap--><link href="../../css/b3/bootstrap.min.css" media="screen" rel="stylesheet" /><!--Stylesheet--><link href="../../stylesheets/styles.css" rel="stylesheet" /><!--web Font--><!--Optimizely--><script src="//cdn.optimizely.com/js/227369404.js"></script><!--OpenTok JavaScript library --><script src="https://swww.tokbox.com/v1.1/js/TB.min.js"></script><style type="text/css">.OT_publisher .OT_opentok {
+  width: 48px;
+  background: url(../../images/rtc/buttons.png) 0 -65px no-repeat;
+}</style><!--UA-39388572-1--><script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-39388572-1', 'fitmi.com.tw');
+ga('send', 'pageview');</script></head><body><script type="text/javascript">var apiKey = "38694312"; // Replace with your API key. See https://dashboard.tokbox.com/projects
+var sessionId = "1_MX4zODMwMjU1Mn4xMjcuMC4wLjF-VHVlIEF1ZyAyMCAwMDo1MjoyOSBQRFQgMjAxM34wLjM5MjM1ODg0fg"; // Replace with your own session ID. See https://dashboard.tokbox.com/projects
+var token = "T1==cGFydG5lcl9pZD0zODMwMjU1MiZzZGtfdmVyc2lvbj10YnJ1YnktdGJyYi12MC45MS4yMDExLTAyLTE3JnNpZz00ZGI2NGYxYWU0N2UwZDZmMjhlM2I4M2VjNzRmMWNiMmFlNmIwMDA0OnJvbGU9cHVibGlzaGVyJnNlc3Npb25faWQ9MV9NWDR6T0RNd01qVTFNbjR4TWpjdU1DNHdMakYtVkhWbElFRjFaeUF5TUNBd01EbzFNam95T1NCUVJGUWdNakF4TTM0d0xqTTVNak0xT0RnMGZnJmNyZWF0ZV90aW1lPTEzNzY5ODUxNTImbm9uY2U9MC43NDE0NzE2NjQwNTA5ODYyJmV4cGlyZV90aW1lPTEzNzcwNzE1NTImY29ubmVjdGlvbl9kYXRhPQ=="; // Replace with a generated token. See https://dashboard.tokbox.com/projects</script><script type="text/javascript">// Enable console logs for debugging
+TB.setLogLevel(TB.DEBUG);
+
+// Initialize session, set up event listeners, and connect
+var session = TB.initSession(sessionId);
+session.addEventListener('sessionConnected', sessionConnectedHandler);
+session.addEventListener('streamCreated', streamCreatedHandler);
+session.connect(apiKey, token);
+function sessionConnectedHandler(event) {
+  var publisher = TB.initPublisher(apiKey, 'myPublisherDiv');
+  session.publish(publisher);
+
+  // Subscribe to streams that were in the session when we connected
+  subscribeToStreams(event.streams);
+}
+
+function streamCreatedHandler(event) {
+  // Subscribe to any new streams that are created
+  subscribeToStreams(event.streams);
+}
+
+function subscribeToStreams(streams) {
+  for (var i = 0; i < streams.length; i++) {
+    // Make sure we don't subscribe to ourself
+    if (streams[i].connection.connectionId == session.connection.connectionId) {
+      return;
+    }
+    // Create the div to put the subscriber element in to
+    var div = document.createElement('div');
+    var subscribers = document.getElementById("subscribers")
+    div.setAttribute('id', 'stream' + streams[i].streamId);
+    subscribers.appendChild(div);
+
+    // Subscribe to the stream
+    session.subscribe(streams[i], div.id);
+  }
+}</script><header class="navbar navbar-fixed-top large"><div class="vi_light_bar"></div><div class="header"><div class="navbar-inner"><button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button"></button><h1 class="brand navbar-brand"><a href="../../characteristic.html"><span class="brand-logo">FitMi 雲端減重</span></a></h1><div class="nav-collapse collapse navbar-responsive-collapse"><ul class="nav navbar-nav main_nav"><li id="menu-item-1"><a href="../../aboutus.html"><span class="title">關於我們</span></a></li><li id="menu-item-2"><a href="../../characteristic.html"><span class="title">FitMi特點</span></a></li><li id="menu-item-3"><a href="../../service.html"><span class="title">服務方式</span></a></li><li id="menu-item-4"><a href="../../feedback.html"><span class="title">見證</span></a></li></ul></div></div></div></header><div class="banner" style="height:200px"><div class="container"><div class="inner"><div class="bg01"></div><div class="slogan"></div></div></div></div><div class="page_content_wrapper"><div class="container page_content"><div class="col-12"><div class="jumbotron"><h2>視訊</h2><div class="panel"><div class="panel-heading clearfix"><div class="pull-right" id="connect"><div class="connect"></div><div class="ctext">已連接伺服器</div></div></div><div class="panel-body clearfix"><div class="pull-left"><div id="myPublisherDiv"></div></div><div class="pull-right"><div id="subscribers"></div></div></div><div class="alert alert-danger clearfix" style="margin-top:20px;font-size:15px;"><button aria-hidden="true" class="close" data-dismiss="alert" style="font-size:15px;" type="button">關閉提示 ×</button><h3>注意事項!</h3><hr /><div class="pd20"><ol><li><div class="badge">1</div>   網頁載入後將自動連線伺服器</li><li><div class="badge">2</div>   允許您的瀏覽器使用視訊與麥克風設備</li><li><div class="badge">3</div>   結束後退出本頁面</li></ol></div></div></div></div></div></div></div><!--Grab Google CDN's jQuery, fall back to local if offline--><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script><script type="text/javascript">window.jQuery || document.write('<script src="js/libs/jquery-1.10.1.min.js"><\/script>')</script><script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script><script src="../../js/libs/bootstrap3/bootstrap.min.js"></script><script type="text/javascript">$(".alert").alert();</script><script src="../../js/script.js"></script></body></html>

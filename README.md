@@ -1,4 +1,4 @@
 FitMi_MLCS
 ==========
 
-public vesion
+publish vesion

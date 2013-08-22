@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url> 
+    <loc>http://www.fitmi.com.tw/index.html</loc> 
+    <loc>http://www.fitmi.com.tw/</loc>
+    <lastmod>2013-08-14</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    </url>
+    <url>
+    <loc>http://www.fitmi.com.tw/characteristic.html</loc>
+    <lastmod>2013-08-14</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    </url>
+    <url>
+    <loc>http://www.fitmi.com.tw/aboutus.html</loc>
+    <lastmod>2013-08-14</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    </url>
+    <url>
+    <loc>http://www.fitmi.com.tw/service.html</loc>
+    <lastmod>2013-08-14</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    </url>
+    <url>
+    <loc>http://www.fitmi.com.tw/feedback.html</loc>
+    <lastmod>2013-08-14</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+       <image:loc>http://fitmi.com.tw/images/brand_bg_164.png</image:loc> 
+    </image:image>
+    <video:video>     
+      <video:content_loc>
+        http://www.youtube.com/embed/0qh0UtMvXRQ
+      </video:content_loc>
+      <video:player_loc allow_embed="yes" autoplay="ap=1">
+        http://www.youtube.com/embed/0qh0UtMvXRQ
+      </video:player_loc>
+      <video:thumbnail_loc>
+        http://www.fitmi.com.tw/images/go_free_try_icon_.png
+      </video:thumbnail_loc>
+      <video:title>FitMi 使用者成功見證</video:title>  
+      <video:description>
+        謝謝你們讓我相信自己也是可以瘦下來的!!!
+      </video:description>
+    </video:video>
+  </url>
+</urlset>
